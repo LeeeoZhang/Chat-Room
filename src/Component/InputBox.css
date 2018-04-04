@@ -1,0 +1,25 @@
+.input-box-wrap {
+    width: 100%;
+    height: 9%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 10px;
+}
+.input-box-wrap > .input-box {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background: orange;
+    position: relative;
+}
+
+.input-box-wrap > .input-box > textarea {
+    font-size: 15px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+}
